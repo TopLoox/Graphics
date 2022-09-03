@@ -45,7 +45,7 @@ export default {
         xAxis: {
           boundaryGap: false,
           type: 'category',
-          data: this.yData,
+          data: this.xData,
         },
 
         yAxis: {
@@ -57,7 +57,7 @@ export default {
             name: 'Values',
             type: 'line',
             smooth: true,
-            data: this.xData,
+            data: this.yData,
 
             color: '#ff5757',
             lineStyle: {

@@ -64,8 +64,8 @@ export default defineComponent({
       inputXAxis: ref(''),
       inputYAxis: ref(''),
 
-      xData: [30, 70, 40, 50, 10, 90, 20],
-      yData: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+      yData: [30, 70, 40, 50, 10, 90, 20],
+      xData: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
 
       inputs: [
         {
