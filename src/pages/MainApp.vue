@@ -49,9 +49,7 @@
 
 <script>
 import { defineComponent, ref } from "vue";
-import { useQuasar } from 'quasar';
 import SimpleLineChart from "components/SimpleLineChart.vue";
-// const $q = useQuasar()
 
 export default defineComponent({
   name: 'MainApp',
