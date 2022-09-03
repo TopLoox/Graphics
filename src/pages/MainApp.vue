@@ -85,14 +85,9 @@ export default defineComponent({
   },
 
   methods: {
-    initChart() {
-      this.$refs.SimpleLineChart.init()
-    },
-
     setDataChart() {
-      const $q = useQuasar()
+      this.$refs.SimpleLineChart.init()
 
-      console.log('f')
       this.$q.notify({
         color: 'positive',
         progress: true,
